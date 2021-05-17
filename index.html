@@ -1,0 +1,175 @@
+<DOCTYPE html>
+<html>
+<head>
+<body>
+<link rel="stylesheet" href="ejstylesheet.css">
+<title>EJ Presh & Clean</title>
+
+<div class="header">
+
+<p>EJ Presh & Clean</p>
+
+</div>
+
+<div class="maincontent">
+
+
+<p>EJ Presh & Clean is a local pressure washing service devoted to a satisfying clean of patios, pavement, driveways, concrete, etc. Run by two local high school students, EJ Presh & Clean has exemplary experience in the field of pressure washing and drive-top/patio cleaning. We finish our pressure washing with a seal coat to seal your driveway, and add longevity to the clean look after the wash.</p>
+
+<hr>
+<br>
+
+<div id="slide" class="slideshow">
+<!--These pictures represent what you can expect from our service. These pictures are not of our actual work, but reflect the level of quality we produce in our cleanig efforts.-->
+</div>
+<br>
+<hr>
+<br>
+
+<h2 class="left">Where do we offer our services?</h2>
+
+<p class="p2Left">EJ Presh & Clean offers service to people residing in Bonney Lake, Buckley and Enumclaw.</p>
+
+<br>
+
+<h2 class="right">What does a full service include?</h2>
+
+<p class="p2Right">A full service includes a pressure wash of the surface being cleaned, and following a complete pressure wash, the surface is coated with a sealing top coat to preserve the surface top, and keep it cleaner for longer.</p>
+<br>
+
+<h2 class="left">How much do we charge?</h2>
+
+<p class="p2Left">We do not offer set prices per square foot as square footage doesn't take into account complexity of the area. Instead, we offer an affordable quote upon contact.</p>
+
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<br>
+
+<h2>What do our customers have to say?</h2>
+<p class="p2">Here are some testimonies from some of our many happy customers:</p>
+
+
+<div class="customers">
+
+<!--I would like to make it known that these reviews are not real people, we made these reviews to add more to the site, we don't have enough testimonies yet to put them on the site. Don't let this take away from how you feel about our work, we do quality work at a good price. Testimonies will be added as collected.-->
+
+
+<p id="testimony"></p>
+
+<h3 id="h3Testimony"></h3>
+</div>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<h2>Contact us for a quote:</h2>
+<p>Contact us for an affordable quote to pressure wash and top coat your driveway, patio, porch, or whatever surface you need cleaned at:</p>
+<h3>(253)-740-4715</h3>
+<br>
+<br>
+<br>
+
+</div>
+<br>
+<br>
+<div class="footer">
+
+<p class="titleLeft">EJ Presh & Clean</p><p class="titleRight">Contact</p>
+<p class="smallLeft">Serving the Bonney Lake, Buckley,</p><p class="smallRight">EJ Presh & Clean Phone Number:</p>
+<p class="smallLeft">Enumclaw area</p><p class="smallRight">(253)-740-4715</p>
+
+<p class="center">Website Designed and managed by LMPI. Contact Webmaster <a href="mailto: levi.monsen21@gmail.com">Here.</a></p>
+</div>
+
+
+<script>
+
+oneRun();
+scriptRun();
+
+
+function scriptRun(){
+
+document.getElementById("testimony").innerHTML="We absolutly love our cleaned driveway! I almost forgot that it was light grey, and not a dingy brown! Thank You Ethan and Jeremiah!"
+
+document.getElementById("h3Testimony").innerHTML="Brenda S."
+
+setTimeout(scriptRun2, 7000)
+}
+
+function scriptRun2(){
+
+document.getElementById("testimony").innerHTML="Thank you for cleaning our driveway! My husband and I have not seen it this clean since we built the house! I reccommend Ethan and Jeremiah to anyone that needs a deep driveway clean."
+
+document.getElementById("h3Testimony").innerHTML="Candice D."
+//Who is candice??
+setTimeout(scriptRun3, 7000)
+
+}
+
+
+function scriptRun3(){
+
+document.getElementById("testimony").innerHTML="Ethan and Jeremiah showed up on time, and did a great job cleaning up our driveway and rear patio. My wife and I are very happy"
+
+document.getElementById("h3Testimony").innerHTML="Brian F."
+
+setTimeout(scriptRun4, 7000)
+
+}
+
+
+function scriptRun4(){
+
+document.getElementById("testimony").innerHTML="We had them pressure wash our driveway about three months ago, and the top coat they did seems to be working great. Thank You!"
+
+document.getElementById("h3Testimony").innerHTML="Kara M."
+
+setTimeout(scriptRun5, 7000)
+
+}
+
+
+function scriptRun5(){
+
+document.getElementById("testimony").innerHTML="EJ Presh & Clean did a great job cleaning up my husband and I's new house. It was all dirty from years of neglect, and looks brand new. Would reccommend."
+
+document.getElementById("h3Testimony").innerHTML="Sherri C."
+
+setTimeout(scriptRun, 7000)
+
+}
+
+function oneRun(){
+document.getElementById("slide").className = "slideshow";
+setTimeout(twoRun, 6000);
+};
+
+function twoRun(){
+document.getElementById("slide").className = "slideshow2";
+setTimeout(threeRun, 6000);
+};
+
+function threeRun(){
+document.getElementById("slide").className = "slideshow3";
+setTimeout(fourRun, 6000);
+};
+
+function fourRun(){
+document.getElementById("slide").className = "slideshow4";
+setTimeout(oneRun, 6000);
+};
+</script>
+
+
+
+
+</body>
+</head>
+</html>
